@@ -178,7 +178,7 @@ export const OptionWrapper = styled.div<{ selected: boolean }>`
     width: 100%;
   }
   &.non-selectable {
-    background: ${Colors.WHITE_SMOKE};
+    background: ${Colors.WHITE_CLOUD};
   }
 `;
 

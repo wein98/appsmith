@@ -263,7 +263,7 @@ export const getMenuOptions = (props: MenuOptionProps) => {
         {
           content: (
             <MenuCategoryWrapper>
-              <div>Date Input Format</div>
+              <div style={{ fontWeight: 600 }}>Date Input Format</div>
               {props.inputFormat && <Tag>Clear</Tag>}
             </MenuCategoryWrapper>
           ),
